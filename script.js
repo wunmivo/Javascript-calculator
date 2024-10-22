@@ -10,11 +10,6 @@ function clearDisplay() {
     display.value = '';  // turns the display to an empty string
 }
 
-// // Function to delete the last character from the display
-// function deleteLast() {
-//     display.value = display.value.slice(0, -1);  // Remove the last character from the string
-// }
-
 // Function to calculate the result of the expression
 function calculate() {
     try {
